@@ -1,0 +1,160 @@
+body {
+    background: #333 !important;
+}
+
+#first {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0s;
+}
+
+#second {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.1s;
+}
+
+#third {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+
+#fourth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+#fifth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+
+#sixth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+#seventh {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+
+#eigth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.7s;
+}
+
+#ninth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.8s;
+}
+
+#tenth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 0.9s;
+}
+
+#eleventh {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+#twelth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.1s;
+}
+
+#thirteenth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+
+#fourteenth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.3s;
+}
+
+#fifteenth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.4s;
+}
+
+#st {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+
+#seventeenth {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.6s;
+}
+
+#et {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.7s;
+}
+
+#nt {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.8s;
+}
+
+#tt {
+    width: 10px;
+    animation: load 1s ease-in-out infinite;
+    animation-delay: 1.9s;
+}
+
+.bar {
+    display: inline-block;
+    position: relative;
+    background: #ee7500;
+    box-shadow: 3px 5px 2px #222;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.content {
+    padding-top: 200px;
+    width: 624px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 395px;
+    text-align: center;
+}
+
+@keyframes load {
+    from,
+    to {
+        height: 20px;
+        bottom: 20px;
+    }
+    50% {
+        height: 50px;
+        bottom: 50px;
+    }
+}
